@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Color switcher</title>
     <link rel="stylesheet" href="css/common.css" />
+    <link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap">
   </head>
   <body>
-    <p><a href="index.html">Go back</a></p>
-
-    <button type="button" data-start>Start</button>
-    <button type="button" data-stop>Stop</button>
+    <p><a href="index.html" class="btn-back">❮ Go back</a></p>
+    <div class="btn">
+      <button class="main-btn main-set" type="button" data-start>Start</button>
+      <button class="main-btn main-set" type="button" data-stop>Stop</button>
+    </div>
+    
 
     <script src="js/01-color-switcher.js" type="module"></script>
   </body>

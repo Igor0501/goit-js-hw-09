@@ -5,24 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Promise generator</title>
     <link rel="stylesheet" href="css/common.css" />
+    <link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap">
   </head>
   <body>
-    <p><a href="index.html">Go back</a></p>
+    <p><a href="index.html" class="btn-back">❮ Go back</a></p>
 
     <form class="form">
       <label>
         First delay (ms)
-        <input type="number" name="delay" required />
+        <input type="number" name="delay" class="input-box" required />
       </label>
       <label>
         Delay step (ms)
-        <input type="number" name="step" required />
+        <input type="number" name="step" class="input-box" required />
       </label>
       <label>
         Amount
-        <input type="number" name="amount" required />
+        <input type="number" name="amount" class="input-box" required />
       </label>
-      <button type="submit">Create promises</button>
+      <button type="submit" class="main-btn main-set">Create promises</button>
     </form>
 
     <script src="js/03-promises.js" type="module"></script>
